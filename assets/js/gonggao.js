@@ -27,7 +27,7 @@ layui.use('layer', function () {
             btnAlign: 'c',
             moveType: 1, //拖拽模式，0或者1
             // padding:弹窗两侧边距 line-height:行距
-            content: '<div style="padding: 30px; line-height: 24px; background-color: #393D49; color: #fff; font-weight: 300; font-size: 16px;"><p><font color="yellow">新增支持邮箱账号</font></p><p>建议微信步数不要超过5万步，否则被举报会封微信运动排行榜7天，7天后自动解封</p>被封排行榜不会影响微信的使用，仅仅是微信运动7天都是0步</p>如遇疑难杂症请点击下方按钮查看帮助</p>1706381769</p>By:erkang.</p>',
+            content: '<div style="padding: 30px; line-height: 24px; background-color: #393D49; color: #fff; font-weight: 300; font-size: 16px;"><p><font color="yellow">新增支持邮箱账号</font></p><p>建议微信步数不要超过5万步，否则被举报会封微信运动排行榜7天，7天后自动解封</p>被封排行榜不会影响微信的使用，仅仅是微信运动7天都是0步</p>如遇疑难杂症请点击下方按钮查看帮助</p>By:erkang.</p>',
             success: function (layero) {
                 var btn = layero.find('.layui-layer-btn');
                 btn.find('.layui-layer-btn0').attr({
